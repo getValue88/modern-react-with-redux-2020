@@ -1,0 +1,18 @@
+- reusable code
+- created by extracting hook-related code out of a component
+- always use at least one primitive hook
+- should have only one purpose
+- data fetching is a great use case to make reusable
+
+#process for creating custom hooks
+
+-identify each line of code related so tome single purpose
+-indentify the inputs to that code
+-identify the outputs to that code
+-extract all of the code into a separate function, receiving inputs as arguments and returning the outputs
+
+
+------------------
+vercel // https://videos-hook-omega.vercel.app  (vercel --prod    to redeploy)
+netlify
+
